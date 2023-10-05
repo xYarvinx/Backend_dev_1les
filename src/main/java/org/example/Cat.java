@@ -23,7 +23,7 @@ public class Cat {
 
 
     void meow() {
-        if (this.age_ <= 1) {
+        if (this.age_ < 1) {
             System.out.println("MEEEEEEEEEEOW");
         }
         else {
@@ -34,4 +34,9 @@ public class Cat {
     void Jump() {
         System.out.println("Jumped!!");
     }
+
+    void drinkMilk() {
+        System.out.println("Drinked Milk!!!");
+    }
+
 }
