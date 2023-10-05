@@ -31,7 +31,7 @@ public class Cat {
         }
     }
 
-    void Jump() {
+    void jump() {
         System.out.println("Jumped!!");
     }
 
