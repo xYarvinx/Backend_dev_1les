@@ -1,29 +1,29 @@
 package org.example;
 
 public class Cat {
-    private Integer age_;
+    private Integer age;
 
     public int getAge() {
-        return this.age_;
+        return this.age;
     }
 
-    private String name_self_;
+    private String selfName;
 
     public String getName() {
-        return this.name_self_;
+        return this.selfName;
     }
 
-    private String name_owner_;
+    private String ownerName;
 
-    public Cat(Integer age,String name_self,String name_owner) {
-        this.age_ = age;
-        this.name_self_ = name_self;
-        this.name_owner_ = name_owner;
+    public Cat(Integer age,String selfName,String ownerName) {
+        this.age = age;
+        this.selfName = selfName;
+        this.ownerName = ownerName;
     }
 
 
     void meow() {
-        if (this.age_ < 1) {
+        if (this.age < 1) {
             System.out.println("MEEEEEEEEEEOW");
         }
         else {
